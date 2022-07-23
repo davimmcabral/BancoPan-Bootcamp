@@ -1,1 +1,32 @@
+Anotações:
 
+Link para download git: https://git-scm.com/downloads
+
+Principais comandos:
+
+Comandos de configuração:
+git config --global user.name "[nome]"
+Configura nome ligado aos commits
+
+git config --global user.email "[endereco-de-email]"
+Configura email ligado aos commits
+
+Criar e apagar repositório:
+git init [nome] : inicia um repositório no git
+rm -rf .git : apaga um repositório
+git clone [url] : clona um repositório, baixa o projeto e seus histórico de versões
+
+Fazendo mudanças
+git status : lista os arquivos novos ou modificados a serem commitados
+git add [nome]: adiciona arquivos para sem monitorados
+git add * : adiciona todos os arquivos da pasta.
+git commit -m "mensagem" :  Grava o snapshot permanentemente do arquivo no histórico de versão
+git log : histórico de commits
+
+Repositórios remotos
+
+git remote add origin "url" : adiciona repositório remoto
+
+git push origin[nome padrao] master[branch] : empurra arquivos do repositório local para repositório remoto
+
+git pull origin[nome padrao] master[branch] : puxa arquivos do repositório remoto para o repositório local
