@@ -1,0 +1,27 @@
+Anotações sobre Kotlin
+
+Declarações de variáveis: 
+As variáveis tem inferência de tipo.
+
+Var : mutável, CamelCase;
+Valor definido e alterado durante a execução.
+
+Val: imutável, CamelCase. Similar ao final em java;
+Valor definido durante a execução.
+
+Const val: imutável, SNAKE_CASE;
+Valor é atribuido durante a compilação. 
+Geralmente utilizado somente para consulta. Fora do Main().
+
+Funções
+
+Prefixo fun nomeDaFunção(nome:Tipo):TipoRetorno{}
+
+Estrutura de repetição
+
+FOR
+
+in: conta do vlr iniciar até o final estabelecido
+Until: conta do vlr inicial até o valor estabelecido menos 1
+Downto: contagem decrescente
+Step: determina intervalo de contagem
